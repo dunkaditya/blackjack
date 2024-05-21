@@ -1,0 +1,85 @@
+body {
+    background: lightblue;
+}
+.pCards {
+    display: flex;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+}
+.pscore{
+    display:relative;
+    top:20px;
+}
+.cscore{
+    display:relative;
+    top:20px;
+}
+.pCards h1{
+    display: inline;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px #ccc solid;
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    padding: 10px;
+    position: relative;
+    left: 40%;
+    margin: 5px;
+}
+.cCards {
+    display: flex;
+    top: 20px;
+    padding: 20px;
+    margin: auto;
+}
+.cCards h1{
+    display: inline;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px #ccc solid;
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    padding: 10px;
+    position: relative;
+    left: 40%;
+    margin: 5px;
+}
+h1{
+    position: relative;
+    left: 40%;
+}
+.hit{
+    display: flex;
+    border: 2px yellow solid;
+    padding: 10px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    width: 60px;
+    height: 60px;
+}
+.stand{
+    display: flex;
+    border: 2px red solid;
+    padding: 10px;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    height: 60px;
+    width: 60px;
+}
+.reset{
+    display: flex;
+    border: 2px green solid;
+    padding: 10px;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    height: 60px;
+    width: 120px;
+}
